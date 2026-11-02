@@ -1,0 +1,4 @@
+# Vivado generated files (not needed for reproduction)
+.Xil/
+build/vivado_project/sd_bmp_hdmi.gen/
+build/vivado_project/sd_bmp_hdmi.ip_user_files/
