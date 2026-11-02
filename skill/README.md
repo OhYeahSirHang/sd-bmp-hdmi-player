@@ -96,7 +96,7 @@ S0 基线（哈希快照+版本三元组） → S1 预算（时间/带宽/容量
 
 `pynq_generic/`：PYNQ overlay 加载 / MMIO 读写 / DMA 回环 / ILA 触发检查的通用模板（`overlay_template.py`、`prompts.md`、`pitfalls.md`、`README.md`）。适用 PYNQ-Z2/Gen3 等带 PS + PL 的板卡；本项目为纯 RTL 未使用，**验证状态：模板级**，供换平台时按需套用。
 
-## 7. 复用方法（陌生队伍 30 分钟上手）
+## 7. 复用方法
 
 1. 现象对表：先看 `references/pitfalls.md` 文末速查表 + `symptom-playbook.md`，把症状落到条目；
 2. 提问：从 `prompt-library.md` 复制对应提问模板，附上自己的 RTL/报告；
