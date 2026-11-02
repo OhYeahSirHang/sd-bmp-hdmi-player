@@ -1,0 +1,72 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Wed Oct 28 21:50:24 2026
+| Host         : dzc0308 running 64-bit major release  (build 9200)
+| Command      : report_utilization -hierarchical -hierarchical_depth 3 -file C:/Users/15905/Desktop/sd_bmp_video320/report_hier_util.rpt
+| Design       : sd_rd_img
+| Device       : xc7a35tfgg484-2
+| Speed File   : -2
+| Design State : Routed
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++-----------------------------------+-------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+|              Instance             |                Module               | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP Blocks |
++-----------------------------------+-------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+| sd_rd_img                         |                               (top) |       9697 |       7720 |    1952 |   25 | 6855 |      9 |      1 |          3 |
+|   (sd_rd_img)                     |                               (top) |         11 |         11 |       0 |    0 |    5 |      0 |      0 |          0 |
+|   clock                           |                               clock |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          0 |
+|     inst                          |                       clock_clk_wiz |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          0 |
+|   ddr3_clock                      |                          ddr3_clock |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          0 |
+|     inst                          |                  ddr3_clock_clk_wiz |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          0 |
+|   hdmi_driver                     |                         hdmi_driver |        208 |        208 |       0 |    0 |  156 |      0 |      0 |          0 |
+|     u_hdmi_trans                  |                          hdmi_trans |        179 |        179 |       0 |    0 |  129 |      0 |      0 |          0 |
+|       encode_inst_b               |                              encode |         61 |         61 |       0 |    0 |   45 |      0 |      0 |          0 |
+|       encode_inst_g               |                            encode_1 |         59 |         59 |       0 |    0 |   41 |      0 |      0 |          0 |
+|       encode_inst_r               |                            encode_2 |         59 |         59 |       0 |    0 |   43 |      0 |      0 |          0 |
+|       inst_parallel_to_serial_clk |                  parallel_to_serial |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          0 |
+|       parallel_to_serial_chn_b    |                parallel_to_serial_3 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          0 |
+|       parallel_to_serial_chn_g    |                parallel_to_serial_4 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          0 |
+|       parallel_to_serial_chn_r    |                parallel_to_serial_5 |          0 |          0 |       0 |    0 |    0 |      0 |      0 |          0 |
+|     u_vga_driver                  |                          vga_driver |         29 |         29 |       0 |    0 |   27 |      0 |      0 |          0 |
+|   key1_debounce                   |                        key_debounce |         35 |         35 |       0 |    0 |   40 |      0 |      0 |          0 |
+|   key2_debounce                   |                      key_debounce_0 |         31 |         31 |       0 |    0 |   40 |      0 |      0 |          0 |
+|   rd_bmp                          |                              rd_bmp |        190 |        190 |       0 |    0 |  211 |      0 |      0 |          0 |
+|   sd_ctrl                         |                             sd_ctrl |        199 |        197 |       0 |    2 |  225 |      0 |      0 |          0 |
+|     (sd_ctrl)                     |                             sd_ctrl |          0 |          0 |       0 |    0 |    1 |      0 |      0 |          0 |
+|     sd_init                       |                             sd_init |         85 |         83 |       0 |    2 |  105 |      0 |      0 |          0 |
+|     sd_rd                         |                               sd_rd |        114 |        114 |       0 |    0 |  119 |      0 |      0 |          0 |
+|   u_ddr3_ctrl                     |                           ddr3_ctrl |       4758 |       4261 |     480 |   17 | 4216 |      0 |      0 |          0 |
+|     (u_ddr3_ctrl)                 |                           ddr3_ctrl |          2 |          2 |       0 |    0 |    0 |      0 |      0 |          0 |
+|     ddr3_arbit                    |                          ddr3_arbit |          8 |          8 |       0 |    0 |    6 |      0 |      0 |          0 |
+|     ddr3_rd_ctrl                  |                        ddr3_rd_ctrl |         33 |         33 |       0 |    0 |   27 |      0 |      0 |          0 |
+|     ddr3_wr_ctrl0                 |                        ddr3_wr_ctrl |         48 |         48 |       0 |    0 |   26 |      0 |      0 |          0 |
+|     u_mig_ddr3                    |                            mig_ddr3 |       4667 |       4170 |     480 |   17 | 4157 |      0 |      0 |          0 |
+|       (u_mig_ddr3)                |                            mig_ddr3 |        236 |          0 |     236 |    0 |    0 |      0 |      0 |          0 |
+|       u_mig_ddr3_mig              |                        mig_ddr3_mig |       4431 |       4170 |     244 |   17 | 4157 |      0 |      0 |          0 |
+|   u_ddr3_rx_buffer                |                      ddr3_rx_buffer |        103 |        100 |       0 |    3 |  335 |      2 |      0 |          0 |
+|     (u_ddr3_rx_buffer)            |                      ddr3_rx_buffer |         26 |         26 |       0 |    0 |   49 |      0 |      0 |          0 |
+|     ddr3_rx_fifo                  |                        ddr3_rx_fifo |         77 |         74 |       0 |    3 |  286 |      2 |      0 |          0 |
+|       U0                          | ddr3_rx_fifo_fifo_generator_v13_2_7 |         77 |         74 |       0 |    3 |  286 |      2 |      0 |          0 |
+|   u_ddr3_tx_buffer                |                      ddr3_tx_buffer |        365 |        363 |       0 |    2 |  225 |      7 |      1 |          0 |
+|     (u_ddr3_tx_buffer)            |                      ddr3_tx_buffer |        182 |        181 |       0 |    1 |  121 |      7 |      1 |          0 |
+|     u_img_scaler                  |                          img_scaler |        183 |        182 |       0 |    1 |  104 |      0 |      0 |          0 |
+|   u_img_process                   |                         img_process |       2025 |       1256 |     768 |    1 |  657 |      0 |      0 |          0 |
+|     (u_img_process)               |                         img_process |       2001 |       1232 |     768 |    1 |  633 |      0 |      0 |          0 |
+|     u_marquee                     |                         top_marquee |         24 |         24 |       0 |    0 |   24 |      0 |      0 |          0 |
+|   u_img_trans                     |                           img_trans |        272 |        272 |       0 |    0 |  107 |      0 |      0 |          3 |
+|   u_key_menu                      |                            key_menu |         42 |         42 |       0 |    0 |   47 |      0 |      0 |          0 |
+|   u_vid_player                    |                          vid_player |       1460 |        756 |     704 |    0 |  591 |      0 |      0 |          0 |
++-----------------------------------+-------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+* Note: The sum of lower-level cells may be larger than their parent cells total, due to cross-hierarchy LUT combining
+
+

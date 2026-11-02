@@ -1,0 +1,116 @@
+﻿
+****** xsim v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/tb_sd_multi/xsim_script.tcl
+# xsim {tb_sd_multi} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+[330000] state 0 -> 1 cs=1 tx=0 rx=1 miso=1
+[370000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[410000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[450000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[490000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[530000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[570000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[610000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[650000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[690000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[730000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[770000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[810000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[850000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[890000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[930000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[970000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1010000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1050000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1090000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1130000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1170000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1210000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1250000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1290000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1330000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1370000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1410000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1450000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1490000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1530000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1570000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1610000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1650000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1690000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1730000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1770000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1810000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1850000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1890000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1930000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[1970000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[2010000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[2050000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[2090000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[2130000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[2170000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[2210000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[2250000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[2290000] rx miso=1 ackf=0 cnt=0 data=00 st=1
+[2330000] rx miso=0 ackf=0 cnt=0 data=00 st=1
+[2370000] rx miso=0 ackf=1 cnt=1 data=00 st=1
+[2410000] rx miso=0 ackf=1 cnt=2 data=00 st=1
+[2450000] rx miso=0 ackf=1 cnt=3 data=00 st=1
+[2490000] rx miso=0 ackf=1 cnt=4 data=00 st=1
+[2530000] rx miso=0 ackf=1 cnt=5 data=00 st=1
+[2570000] rx miso=0 ackf=1 cnt=6 data=00 st=1
+[2610000] rx miso=0 ackf=1 cnt=7 data=00 st=1
+[2650000] state 1 -> 2 cs=0 tx=0 rx=1 miso=1
+[2650000] rx miso=1 ackf=0 cnt=7 data=00 st=2
+[2690000] rx miso=1 ackf=0 cnt=7 data=00 st=2
+[2730000] rx miso=1 ackf=0 cnt=7 data=00 st=2
+[2770000] rx miso=1 ackf=0 cnt=7 data=00 st=2
+[2810000] rx miso=1 ackf=0 cnt=7 data=00 st=2
+[2850000] rx miso=1 ackf=0 cnt=7 data=00 st=2
+[2890000] rx miso=1 ackf=0 cnt=7 data=00 st=2
+[2930000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[2970000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3010000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3050000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3090000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3130000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3170000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3210000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3250000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3290000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3330000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3370000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3410000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3450000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3490000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3530000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3570000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3610000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3650000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3690000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3730000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3770000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3810000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3850000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3890000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3930000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+[3970000] rx miso=0 ackf=0 cnt=7 data=00 st=2
+block 1 done at 166790000
+block 2 done at 331310000
+block 3 done at 495830000
+block 4 done at 660350000
+[661010000] state 2 -> 3 cs=0 tx=0 rx=1 miso=0
+[661330000] state 3 -> 4 cs=0 tx=0 rx=1 miso=0
+[661650000] state 4 -> 0 cs=1 tx=0 rx=1 miso=1
+DONE at 661650000, bytes=2048
+RESULT ndone=1 bytes=2048 state=0
+PASS
+$finish called at time : 3000340 ns : File "C:/Users/15905/Desktop/sd_bmp_video320_submission/sim/tb/tb_sd_multi.v" Line 174
+exit
+INFO: [Common 17-206] Exiting xsim at Fri Oct 30 23:10:41 2026...
